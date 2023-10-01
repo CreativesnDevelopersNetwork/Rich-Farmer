@@ -12,7 +12,6 @@ import AdminLogin from "../components/Login/AdminLogin";
 import AdminTable from "../components/AdminTable/AdminTable";
 import Reports from "../components/Reports/Reports";
 import Homepage from "../components/Homepage/Homepage"
-import WelcomePage from "./WelcomePage/WelcomePage";
 import AgentDashboard from "./AgentDashboard/AgentDashboard";
 import DashboardHome from "./AdminDashboard/DashboardHome";
 import AgentsTable from "./AgentsTable/AgentsTable";
@@ -23,7 +22,7 @@ function App() {
     <Router>
       <AuthProvider>
         <Routes>
-        <Route path="/" element={<WelcomePage />} />
+        <Route path="/" element={<AdminLogin />} />
           <Route path="/signup" element={<Signup />} />
           <Route path="/login" element={<Login />} />
           <Route path="/adminlogin" element={<AdminLogin />} />
