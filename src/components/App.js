@@ -25,7 +25,6 @@ function App() {
         <Route path="/" element={<AdminLogin />} />
           <Route path="/signup" element={<Signup />} />
           <Route path="/login" element={<Login />} />
-          <Route path="/adminlogin" element={<AdminLogin />} />
           <Route path="/contactus" element={<ContactUs />} />
           <Route path="/forgot-password" element={<ForgotPassword />} />
           <Route path="/agentform" element={<AgentForm />} />
